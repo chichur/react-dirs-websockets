@@ -1,0 +1,16 @@
+.dir {
+    padding: 10px;
+    display: flex;
+    position: relative;
+    height: 50px;
+    width: 200px;
+    background-color: gray;
+}
+
+.dirExpand {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    left: 100%;
+}
